@@ -106,7 +106,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
    - Log into `Client-1` and use the `ping` command to test connectivity with `DC-1`.
 
 5. **Verify DNS Settings**:
-   - Run `ipconfig/all` in Powershell on `Client-1` to ensure the DnS points to `DC-1`.
+   - Run `ipconfig/all` in Powershell on `Client-1` to ensure the DNS points to `DC-1`.
 
 <p>
   
@@ -181,7 +181,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ### **Create Users with Powershell**
 1. Log in to `DC-1` as `jane_admin`.
 2. Open Powershell ISE as an administrator.
-3. Create multiple new users using a script (script link: https://github.com/joshmadakor1/AD PS/blob/master/Generate-Names-Create-Users.ps1).
+3. Create multiple new users using a script (script link: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1).
 4. Verify users appear in the `_EMPLOYEES` OU in ADUC.
 5. Attempt to log into `Client-1` with one of the created accounts.
 
