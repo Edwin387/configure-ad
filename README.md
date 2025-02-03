@@ -34,9 +34,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 1. **Create a Resource Group**:
    -Navigate to the Azure Portal and create a new Resource Group for the lab environment. 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%201.PNG?raw=true)
 
 2. **Create a Virtual Network and Subnet**:
    - Set up a Virtual Network with a subnet to host your VMs.
