@@ -32,7 +32,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ### **Setup Domain Controller in Azure**
 1. **Create a Resource Group**:
-   -Navigate to the Azure Portal and create a new Resource Group for the lab environment. 
+   - Navigate to the Azure Portal and create a new Resource Group for the lab environment. 
 
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%201.PNG?raw=true)
 
