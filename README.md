@@ -161,7 +161,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
  4. Attempt to log in with a user account using incorrect passwords. Observe the account lockout behavior. 
 5. Unlock the account in ADUC and reset the password.
 
-![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2021.PNG?raw=true)
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2021.PNG?raw=true) 
 
 ![image] 
 
