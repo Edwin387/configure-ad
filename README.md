@@ -84,7 +84,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 5. **Verify DNS Settings**:
    - Run `ipconfig/all` in Powershell on `Client-1` to ensure the DNS points to `DC-1`.
 
-![image] 
+![image](https://github.com/Edwin387/configure-ad/blob/main/Shot%2011.PNG?raw=true)
 
 ---
 
