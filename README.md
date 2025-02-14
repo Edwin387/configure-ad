@@ -39,65 +39,43 @@ This tutorial outlines the implementation of on-premises Active Directory within
 2. **Create a Virtual Network and Subnet**:
    - Set up a Virtual Network with a subnet to host your VMs.
 
-<p>
-
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%202.PNG?raw=true)
 
 3. **Create the Domain Controller VM (Windows Server 2022)**:
    - Name the VM: `DC-1`.
    - Ensure that the VM is on the Virtual Network created previously. 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%203.PNG?raw=true)
 
-<p>
-
-</p>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%204.PNG?raw=true)
 
 4. **Set Static Private IP for DC-1**:
    - After the VM is created, navigate to its Network Interface Card (NIC) settings and set the private IP to static.
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%205.PNG?raw=true)
 
 5. **Disable Windows Firewall**:
    - Log in to `DC-1` and disable the Windows Firewall for testing connectivity.
 
-<p>
-
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%206.jpg?raw=true)
 
 ### **Setup Client-1 in Azure**
 1. **Create the Client VM (Windows 10 22H2)**:
      - Name the VM: `Client-1`.
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%207.PNG?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%208.PNG?raw=true)
 
 2. **Attach Client-1 to the Same Region and Virtual Network**:
    - Ensure it is in the same Virtual Network and subnet as `DC-1`.
 
- <p>
-       
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%209.PNG?raw=true)
 
 3. **Set DNS Settings**:
    - Update `Client-1`'s DNS settings to point to `DC-1`'s private IP address.
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2010.PNG?raw=true)
 
 4. **Test Connectivity**:
    - Restart `Client-1` from the Azure Portal.
@@ -106,9 +84,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 5. **Verify DNS Settings**:
    - Run `ipconfig/all` in Powershell on `Client-1` to ensure the DNS points to `DC-1`.
 
-<p>
-  
-</p>
+![image] 
 
 ---
 
