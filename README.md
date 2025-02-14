@@ -39,7 +39,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 2. **Create a Virtual Network and Subnet**:
    - Set up a Virtual Network with a subnet to host your VMs.
 
-![image](https://github.com/Edwin387/configure-ad/blob/main/shot%202.PNG?raw=true)
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%202.png?raw=true)
 
 3. **Create the Domain Controller VM (Windows Server 2022)**:
    - Name the VM: `DC-1`.
