@@ -165,20 +165,16 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2022.png?raw=true)
 
-![image] 
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2023.PNG?raw=true)
 
 ### *Enable and Disable Accounts**
 1. Disable a user account in ADUC.
 2. Attempt to log in with the disabled account and observe the error message.
 3. Re-enable the account and log in successfully.
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2024.PNG?raw=true)
 
-<p>
-  
-</p>
+![image] 
 
 <p>
   
