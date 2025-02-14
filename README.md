@@ -163,7 +163,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2021.PNG?raw=true) 
 
-![image] 
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2022.png?raw=true)
 
 <p>
   
