@@ -143,15 +143,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 4. Verify users appear in the `_EMPLOYEES` OU in ADUC.
 5. Attempt to log into `Client-1` with one of the created accounts.
 
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2018.PNG?raw=true)
+
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2019.PNG?raw=true)
+
 ![image] 
-
-<p>
-  
-</p>
-
-<p>
-  
-</p>
 
 ---
 
