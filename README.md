@@ -176,16 +176,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2025.png?raw=true)
 
-![image] 
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2026.PNG?raw=true)
 
 ### **Observing Logs**
 1. Review authentication and account-related logs in Event Viewer:
    - Log on `DC-1` for domain-level events (shown below).
    - Log on `Client-1` for local events.
 
-     <p>
-       
-     </p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2027.PNG?raw=true)
 
 ---
 
