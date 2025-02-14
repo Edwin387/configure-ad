@@ -134,7 +134,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 2. Open System Properties and enable Remote Desktop.
 3. Allow "domain users" access to Remote Desktop.
 
-![image] 
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2017.PNG?raw=true)
 
 ### **Create Users with Powershell**
 1. Log in to `DC-1` as `jane_admin`.
@@ -143,9 +143,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 4. Verify users appear in the `_EMPLOYEES` OU in ADUC.
 5. Attempt to log into `Client-1` with one of the created accounts.
 
-<p>
-  
-</p>
+![image] 
 
 <p>
   
