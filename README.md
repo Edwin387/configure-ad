@@ -96,13 +96,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 3. Promote `DC-1` as a Domain Controller and set up a new forest (e.g, `mydomain.com`).
 4. Restart `DC-1` and log in as `mydomain.com\labuser`.
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2011.5.PNG?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2012.PNG?raw=true)
 
 ### **Create a Domain Admin User**
 1. Open Active Directory Users and Computers (ADUC)
@@ -115,25 +111,17 @@ This tutorial outlines the implementation of on-premises Active Directory within
 5. Add `jane_admin` to the `Domain Admins` security group.
 6. Log out and log back in as `mydomain.com\jane_admin`.
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2013.PNG?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2014.PNG?raw=true)
 
-<p>
-  
-</p>
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2015.PNG?raw=true)
 
 ### **Join Client-1 to the Domain**
 1. Log in as the local admin and join `Client-1` to the domain.
 2. Create a new OU titled `_CLIENTS` & add `Client-1` in ADUC to `_CLIENTS`.
 
-<p>
-  
-</p>
+![image] 
 
 <p>
   
