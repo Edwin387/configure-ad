@@ -121,11 +121,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 1. Log in as the local admin and join `Client-1` to the domain.
 2. Create a new OU titled `_CLIENTS` & add `Client-1` in ADUC to `_CLIENTS`.
 
-![image] 
+![image](https://github.com/Edwin387/configure-ad/blob/main/Extra%201.PNG?raw=true)
 
-<p>
-  
-</p>
+![image] 
 
 ---
 
