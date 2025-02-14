@@ -174,11 +174,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2024.PNG?raw=true)
 
-![image] 
+![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2025.png?raw=true)
 
-<p>
-  
-</p>
+![image] 
 
 ### **Observing Logs**
 1. Review authentication and account-related logs in Event Viewer:
