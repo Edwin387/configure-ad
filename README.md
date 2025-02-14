@@ -79,7 +79,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 4. **Test Connectivity**:
    - Restart `Client-1` from the Azure Portal.
-   - Log into `Client-1` and use the `ping` command to test connectivity with `DC-1`.
+   - Log into `Client-1` and use the `ping` command in powershell to test connectivity with `DC-1`.
 
 5. **Verify DNS Settings**:
    - Run `ipconfig/all` in Powershell on `Client-1` to ensure the DNS points to `DC-1`.
