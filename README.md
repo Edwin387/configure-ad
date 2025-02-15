@@ -68,7 +68,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%208.PNG?raw=true)
 
 2. **Attach Client-1 to the Same Region and Virtual Network**:
-   - Ensure it is in the same Virtual Network and subnet as `DC-1`.
+   - Ensure the VM is in the same Virtual Network and subnet as `DC-1`.
 
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%209.PNG?raw=true)
 
