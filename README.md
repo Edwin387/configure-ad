@@ -55,7 +55,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%205.PNG?raw=true)
 
 5. **Disable Windows Firewall**:
-   - Log in to `DC-1` and disable the Windows Firewall for testing connectivity.
+   - Log into `DC-1` and disable the Windows Firewall for testing connectivity.
 
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%206.jpg?raw=true)
 
