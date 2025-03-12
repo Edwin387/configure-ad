@@ -50,12 +50,12 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%204.PNG?raw=true)
 
 4. **Set Static Private IP for DC-1**:
-   - After the VM is created, navigate to its Network Interface Card (NIC) settings and set the private IP to static.
+   - After creating the VM, navigate to its Network Interface Card (NIC) settings and set the private IP to static.
 
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%205.PNG?raw=true)
 
 5. **Disable Windows Firewall**:
-   - Log into `DC-1` and disable the Windows Firewall for testing connectivity.
+   - Log into `DC-1` and disable the Windows Firewall to test connectivity.
 
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%206.jpg?raw=true)
 
@@ -79,7 +79,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 4. **Test Connectivity**:
    - Restart `Client-1` from the Azure Portal.
-   - Log into `Client-1` and use the `ping` command in powershell to test connectivity with `DC-1`.
+   - Log into `Client-1` and use Powershell's `ping` command to test connectivity with `DC-1`.
 
 5. **Verify DNS Settings**:
    - Run `ipconfig/all` in Powershell on `Client-1` to ensure the DNS points to `DC-1`.
@@ -93,7 +93,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ### **Install Active Directory**
 1. Log in to `DC-1`.
 2. Install Active Directory Domain Services (AD DS)
-3. Promote `DC-1` as a Domain Controller and set up a new forest (e.g, `mydomain.com`).
+3. Promote `DC-1` as a Domain Controller and set up a new forest (e.g., `mydomain.com`).
 4. Restart `DC-1` and log in as `mydomain.com\labuser`.
 
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2011.5.PNG?raw=true)
@@ -137,7 +137,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![image](https://github.com/Edwin387/configure-ad/blob/main/shot%2017.PNG?raw=true)
 
 ### **Create Users with Powershell**
-1. Log in to `DC-1` as `jane_admin`.
+1. Log into `DC-1` as `jane_admin`.
 2. Open Powershell ISE as an administrator.
 3. Create multiple new users using a script (script link: https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1).
 4. Verify users appear in the `_EMPLOYEES` OU in ADUC.
