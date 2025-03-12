@@ -154,7 +154,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ### Part 4: Group Policy and Managing Accounts 
 
 ### **Account Lockout Configuration**
-1. Log in to `DC-1`.
+1. Log into `DC-1`.
 2. Open Group Policy Management.
 3. Edit the Default Domain Policy:
    - Set account lockout threshold to 5 invalid attempts.
